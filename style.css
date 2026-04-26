@@ -65,6 +65,44 @@ a{
         justify-content: space-between;
         margin-top: 100px;
     }
+    .conteiner2{
+        width: 100%;
+        height: 600px;
+    }
+    .asist3{
+        padding: 70px 150px;
+    }
     .img1{
         margin-top: -100px;
+    }
+    .text4{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .icon1{
+        width: 30px;
+        height: 30ppx;
+        background-color: rgb(206, 206, 206);
+        padding: 5px 10px;
+        border-radius: 8px;
+        color: blue;
+    }
+    .text5{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text6{
+        color: grey;
+        margin-top: 0px;
+    }
+    .flex3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 310px;
+    }
+    .flex4{
+        display: flex;
+        gap: 20px;
+        margin-top: 60px;
     }
