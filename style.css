@@ -30,6 +30,9 @@ a {
   padding: 10px 30px;
   border-radius: 8px;
 }
+.none{
+    display: none;
+}
 .flex1 {
   display: flex;
   justify-content: space-between;
@@ -237,6 +240,11 @@ a {
   line-height: 30px;
   margin-top: 30px;
 }
+.flex8{
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .img8 {
   display: inline;
 }
@@ -267,12 +275,12 @@ a {
 .asist7{
   padding: 30px 150px;
 }
-ul {
+.ul1{
   list-style: none;
   display: flex;
   gap: 50px;
 }
-a {
+.a1{
   text-decoration: none;
   color: white;
 }
@@ -282,4 +290,217 @@ a {
   background-color: inherit;
   padding: 10px 30px;
   border-radius: 8px;
+}
+@media (max-width:640px){
+    .conteiner1{
+        width: 100%;
+        height: 100px;
+    }
+    .asist1{
+        padding: 20px;
+    }
+    ul{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+    .none{
+        display: inline;
+        margin-right: 30px;
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .conteiner2{
+        width: 100%;
+        height: 750px;
+    }
+    .asist2{
+        padding: 10px;
+    }
+    .text2{
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .text3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .flex2{
+        margin: 0;
+    }
+    .btn2{
+        margin-left: 50px;
+    }
+    .img6{
+        position: absolute;
+        top: 500px;
+        left: 40px;
+    }
+    .img3{
+     position: absolute;
+     top: 1100px;
+     height: 400px;
+     left: 10px;
+     width: 97%;
+    }
+    .flex3{
+        flex-direction: column;
+    }
+    .conteiner3{
+        width: 100%;
+        height: 800px;
+    }
+    .asist3{
+        padding: 10px;
+    }
+    .conteiner4{
+        width: 100%;
+        height: 500%;
+        margin-top: 1100px;
+    }
+    .text4{
+        margin-top: -300px;
+    }
+    .flex4{
+       text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .icon1{
+        margin-left: 150px;
+        width: 60px;
+        height: 60px;
+    }
+    .text5{
+        font-size: 25px;
+    }
+    .text6{
+        font-size: 23px;
+    }
+    .asist4{
+        padding: 10px;
+    }
+    .text7{
+        font-size: 30px;
+    }
+    .flex5{
+        flex-direction: column;
+    }
+    .knop1{
+        width: 101%;
+    }
+    .icon2{
+        margin-left: 150px;
+    }
+    .btn3{
+        margin-left: 50px;
+    }
+    .conteiner5{
+        width: 100%;
+        height: 500px;
+        margin-top: 100px;
+    }
+    .asist5{
+        padding: 10px;
+    }
+    .knop2{
+        margin: 0;
+       width: 100%;
+       height: 900px;
+       padding: 0px;
+    }
+    .fk{
+        display: flex;
+        flex-direction: column;
+    }
+    .text10{
+        font-size: 35px;
+        text-align: center;
+        margin: 0px;
+    }
+    .text11{
+        text-align: center;
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    .img4{
+        width: 300px;
+        height: 80px;
+    }
+
+    .img5{
+        margin-top: 30px;
+        width: 300px;
+        height: 80px;
+    }
+    .img7{
+        position: relative;
+        top: 66px;
+        left: -50px;
+        margin: 0px;
+    }
+    .conteiner6{
+        width: 100%;
+        height: 700px;
+        margin-top: 450px;
+    }
+    .asist6{
+        padding: 0px;
+    }
+    .flex6{
+        flex-direction: column;
+    }
+    .text12{
+        text-align: center;
+        font-size: 35px;
+    }
+    .text13{
+        text-align: center;
+    }
+    .dd{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .flex7{
+        flex-direction: column;
+    }
+    .conteiner7{
+        margin-top: 300px;
+    }
+    .odam{
+        width: 150px;
+        height: 150px;
+        margin-left: 150px;
+    }
+    .text14{
+        text-align: center;
+        font-size: 50px;
+    }
+    .text15{
+        text-align: center;
+        font-size: 30px;
+    }
+    .flex8{
+        flex-direction: column;
+    }
+    .conteiner7{
+        width: 100%;
+        height: 400px;
+    }
+    .btn4{
+        width: 200px;
+        padding: 15px 0px;
+        margin-top: 30px;
+    }
+    .ul1{
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
