@@ -85,7 +85,7 @@ a {
 .icon1 {
   width: 30px;
   height: 30ppx;
-  background-color: rgb(206, 206, 206);
+  background-color: #f7f8fd;
   padding: 5px 10px;
   border-radius: 8px;
   color: blue;
@@ -147,7 +147,7 @@ a {
 .icon2 {
   width: 40px;
   height: 40px;
-  background-color: rgb(206, 206, 206);
+  background-color: #f7f8fd;
   padding: 5px 10px;
   border-radius: 8px;
   color: blue;
@@ -276,6 +276,7 @@ a {
   padding: 30px 150px;
 }
 .ul1{
+    width: 100%;
   list-style: none;
   display: flex;
   gap: 50px;
@@ -283,6 +284,11 @@ a {
 .a1{
   text-decoration: none;
   color: white;
+}
+.text10{
+      color: white;
+  font-weight: 800;
+  font-size: 30px;
 }
 .btn4 {
   border: 1px solid white;
@@ -298,6 +304,9 @@ a {
     }
     .asist1{
         padding: 20px;
+    }
+    .text1{
+        font-size: 40px;
     }
     ul{
         display: none;
@@ -322,32 +331,38 @@ a {
     .asist2{
         padding: 10px;
     }
+    .imk{
+        position: relative;
+        top: 1150px;
+    }
     .text2{
         font-size: 25px;
-        font-weight: 600;
+        font-weight: 400;
         text-align: center;
+        margin-left: 50px;
     }
     .text3{
         font-size: 20px;
         text-align: center;
+        margin-left: 50px;
     }
     .flex2{
         margin: 0;
     }
     .btn2{
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .img6{
         position: absolute;
         top: 500px;
-        left: 40px;
+        left: 50px;
     }
     .img3{
      position: absolute;
-     top: 1100px;
      height: 400px;
      left: 10px;
      width: 97%;
+             top: 2200px;
     }
     .flex3{
         flex-direction: column;
@@ -365,7 +380,8 @@ a {
         margin-top: 1100px;
     }
     .text4{
-        margin-top: -300px;
+        margin-top: -900px;
+        margin-left: 30px;
     }
     .flex4{
        text-align: center;
@@ -393,13 +409,15 @@ a {
         flex-direction: column;
     }
     .knop1{
-        width: 101%;
+        width: 100%;
     }
     .icon2{
+        width: 80px;
+        height: 80px;
         margin-left: 150px;
     }
     .btn3{
-        margin-left: 50px;
+        margin-left: 60px;
     }
     .conteiner5{
         width: 100%;
@@ -464,8 +482,17 @@ a {
         text-align: center;
     }
     .dd{
-        margin-left: 150px;
-        margin-top: 50px;
+        position: absolute;
+        top: 6400px;
+        left: 130px;
+    }
+    .img8{
+        width: 80px;
+        height: 80px;
+    }
+    .img9{
+        width: 80px;
+        height: 80px;
     }
     .flex7{
         flex-direction: column;
@@ -502,5 +529,10 @@ a {
         margin-top: 20px;
         flex-direction: column;
         gap: 20px;
+        margin-right: 20px;
+    }
+    .text3{
+        font-size: 15px;
+        text-align: center;
     }
 }
